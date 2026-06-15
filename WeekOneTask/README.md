@@ -1,4 +1,4 @@
-<h1>Week 1 Internship Task</h1>
+<h3>Week 1 Internship Task</h1>
 <p>Build a basic REST API.
 <p>Use ASP.NET Core Web API.
 <p>Create a local server.
@@ -7,7 +7,7 @@
 <p>no remembering old requests
 <p>every request works independently
 <p>Create GET routes:
-<h1>GET /api/products
+<h3>GET /api/products</h3>
 <p>GET /api/products/{id}
 <h1></h1>Create POST route:
 <p>POST /api/products
@@ -23,9 +23,9 @@ name
 description
 price
 inStock
-Store data in a simple in-memory list for now.
-Test all APIs using Postman or Swagger.
-Organize code into folders:
+<p></p>Store data in a simple in-memory list for now.
+<p></p>Test all APIs using Postman or Swagger.
+<p></p>Organize code into folders:
 Models
 Controllers
 DTOs
@@ -37,7 +37,7 @@ how to run
 API routes
 sample request/response
 Push the project to GitHub.
-Final Deliverable
+<p></p>Final Deliverable
 
 A working Product REST API with:
 GET products
