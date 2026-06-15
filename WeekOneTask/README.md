@@ -158,7 +158,7 @@ POST /api/products
 }
 ```
 
-### HTTP Status Codes Used
+#### HTTP Status Codes Used
 
 | Status Code | Meaning |
 |---|---|
@@ -167,7 +167,7 @@ POST /api/products
 | 400 Bad Request | Invalid input data |
 | 404 Not Found | Product not found |
 
-## Week 1 Concepts Covered
+#### Week 1 Concepts Covered
 
 - Local backend server
 - REST API fundamentals
