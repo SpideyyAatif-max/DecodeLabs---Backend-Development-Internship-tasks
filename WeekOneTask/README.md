@@ -1,5 +1,5 @@
-Week 1 Internship Task — Simple Bullets
-Build a basic REST API.
+Week 1 Internship Task
+<p>Build a basic REST API.
 Use ASP.NET Core Web API.
 Create a local server.
 Make the API stateless:
