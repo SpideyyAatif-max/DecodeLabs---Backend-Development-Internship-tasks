@@ -9,7 +9,7 @@
 <p>Create GET routes:
 <h3>GET /api/products</h3>
 <p>GET /api/products/{id}
-<h1></h1>Create POST route:
+<h1>Create POST route:</h1>
 <p>POST /api/products
 <p>Return data in JSON format.
 <p>Use proper HTTP status codes:
@@ -30,16 +30,16 @@ Models
 Controllers
 DTOs
 Services
-Write a simple README.md:
+<p></p>Write a simple README.md:
 project name
 tech stack
 how to run
 API routes
 sample request/response
-Push the project to GitHub.
+<p></p>Push the project to GitHub.
 <p></p>Final Deliverable
 
-A working Product REST API with:
+<p>A working Product REST API with:
 GET products
 GET product by id
 POST create product
