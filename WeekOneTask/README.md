@@ -43,16 +43,16 @@ correct status codes
 GitHub repo
 
 
-### Product REST API
+#### Product REST API
 A simple stateless REST API built with ASP.NET Core Web API for Week 1 Backend Development internship task.
-### Project Goal
+#### Project Goal
 Build a local stateless web server that serves structured JSON data using GET and POST routes.
-### Tech Stack
+#### Tech Stack
 - C#
 - ASP.NET Core Web API
 - Swagger/OpenAPI
 - In-memory list for temporary data storage
-### Directory Structure
+#### Directory Structure
 ```text
 ProductRestApi/
 ├── Controllers/
@@ -72,7 +72,7 @@ ProductRestApi/
 ├── appsettings.Development.json
 └── ProductRestApi.csproj
 ```
-### How to Run
+#### How to Run
 ```bash
 dotnet restore
 dotnet run
@@ -83,12 +83,12 @@ Open Swagger:
 https://localhost:5001/swagger
 ```
 or check the terminal output for the exact local URL.
-### API Endpoints
-### 1. Get All Products
+#### API Endpoints
+#### 1. Get All Products
 ```http
 GET /api/products
 ```
-### Success Response
+#### Success Response
 ```json
 {
   "success": true,
@@ -104,11 +104,11 @@ GET /api/products
   ]
 }
 ```
-### 2. Get Product By ID
+#### 2. Get Product By ID
 ```http
 GET /api/products/1
 ```
-### Success Response
+#### Success Response
 ```json
 {
   "success": true,
@@ -122,7 +122,7 @@ GET /api/products/1
   }
 }
 ```
-### Not Found Response
+#### Not Found Response
 ```json
 {
   "success": false,
@@ -130,11 +130,11 @@ GET /api/products/1
   "data": null
 }
 ```
-### 3. Create Product
+#### 3. Create Product
 ```http
 POST /api/products
 ```
-### Request Body
+#### Request Body
 ```json
 {
   "name": "Monitor",
@@ -143,7 +143,7 @@ POST /api/products
   "inStock": true
 }
 ```
-### Success Response
+#### Success Response
 ```json
 {
   "success": true,
