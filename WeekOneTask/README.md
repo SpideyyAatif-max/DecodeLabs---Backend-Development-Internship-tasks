@@ -1,4 +1,4 @@
-<h3>Week 1 Internship Task</h1>
+<h4>Week 1 Internship Task</h4>
 <p>Build a basic REST API.
 <p>Use ASP.NET Core Web API.
 <p>Create a local server.
@@ -7,9 +7,9 @@
 <p>no remembering old requests
 <p>every request works independently
 <p>Create GET routes:
-<h3>GET /api/products</h3>
+<h4>GET /api/products</h4>
 <p>GET /api/products/{id}
-<h1>Create POST route:</h1>
+<h4>Create POST route:</h4>
 <p>POST /api/products
 <p>Return data in JSON format.
 <p>Use proper HTTP status codes:
