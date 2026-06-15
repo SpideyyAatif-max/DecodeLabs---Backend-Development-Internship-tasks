@@ -1,23 +1,23 @@
-Week 1 Internship Task
+<h1>Week 1 Internship Task
 <p>Build a basic REST API.
-Use ASP.NET Core Web API.
-Create a local server.
-Make the API stateless:
-no sessions
-no remembering old requests
-every request works independently
-Create GET routes:
-GET /api/products
-GET /api/products/{id}
-Create POST route:
-POST /api/products
-Return data in JSON format.
-Use proper HTTP status codes:
+<p>Use ASP.NET Core Web API.
+<p>Create a local server.
+<p>Make the API stateless:
+<p>no sessions
+<p>no remembering old requests
+<p>every request works independently
+<p>Create GET routes:
+<h1>GET /api/products
+<p>GET /api/products/{id}
+<h1></h1>Create POST route:
+<p>POST /api/products
+<p>Return data in JSON format.
+<p>Use proper HTTP status codes:
 200 OK for successful GET
 201 Created for successful POST
 400 Bad Request for invalid input
 404 Not Found if product not found
-Use simple product fields:
+<p>Use simple product fields:
 id
 name
 description
